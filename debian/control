@@ -2,7 +2,7 @@ Source: flask-socketio
 Section: universe/python
 Maintainer: DIGITS Development Team <digitsdev@nvidia.com>
 Priority: optional
-Build-depends: python-dev, debhelper (>= 9)
+Build-depends: python-dev, debhelper (>= 9), python-setuptools
 Standards-Version: 3.9.5
 
 Package: python-flaskext.socketio
