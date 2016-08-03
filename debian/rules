@@ -1,8 +1,4 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --parallel --with python2 --buildsystem=python_distutils
-
-override_dh_auto_clean:
-	dh_auto_clean
-	rm -rf Flask_SocketIO.egg-info
+	dh $@ --parallel --with python2 --buildsystem=pybuild

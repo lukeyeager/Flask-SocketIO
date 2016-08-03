@@ -1,14 +1,16 @@
 Source: flask-socketio
+Maintainer: Luke Yeager <luke.yeager@gmail.com>
 Section: universe/python
-Maintainer: DIGITS Development Team <digitsdev@nvidia.com>
 Priority: optional
-Build-depends: python-dev, debhelper (>= 9), python-setuptools
+Build-depends: debhelper (>= 9), dh-python, python-all, python-setuptools, python-flask, python-engineio, python-socketio2
 Standards-Version: 3.9.5
+Homepage: http://pythonhosted.org/Flask-SocketIO
+Vcs-Browser: https://github.com/miguelgrinberg/Flask-SocketIO
 
 Package: python-flaskext.socketio
-Architecture: amd64
-Depends: ${misc:Depends}, python, python-socketio
-Description: Flask SocketIO extension
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Socket.IO integration for Flask applications
  Flask-SocketIO gives Flask applications access to low latency bi-directional
  communications between the clients and the server. The client-side
  application can use the SocketIO Javascript library or any compatible client
