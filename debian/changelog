@@ -1,6 +1,12 @@
+flask-socketio (2.6-1) trusty; urgency=medium
+
+  * v2.6 for prod
+
+ -- Luke Yeager <luke.yeager@gmail.com>  Mon, 12 Sep 2016 09:19:14 -0700
+
 flask-socketio (2.6-1ppa1) trusty; urgency=medium
 
-  * v2.6
+  * v2.6 for PPA
 
  -- Luke Yeager <luke.yeager@gmail.com>  Wed, 03 Aug 2016 13:56:07 -0700
 
